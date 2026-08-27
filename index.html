@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PLO Compras Inteligente · Analizador de Listas de Precios</title>
+<title>PLO Compras Informadas</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -271,7 +271,7 @@
 <div class="login-screen" id="loginScreen">
   <div class="login-card">
     <div class="login-logo">PLO DROGUERÍA</div>
-    <div class="login-title">Compras Inteligente</div>
+    <div class="login-title">Compras Informadas</div>
     <div class="login-avatar">PL</div>
     <div class="login-name">Patricio Leiva</div>
     <div class="login-role">Encargado de Compras · PLO Droguería</div>
@@ -308,8 +308,8 @@
 
   <header>
     <div>
-      <div class="eyebrow"><span class="dot"></span> PLO Compras Inteligente</div>
-      <h1>Analizador de Listas de Precios</h1>
+      <div class="eyebrow"><span class="dot"></span> PLO Compras Informadas</div>
+      <h1>Su información de compra, toda en un solo lugar</h1>
       <p class="sub">Tu copiloto de compras: analiza el stock que ya tienes en bodega, cruza las listas de precios de tus proveedores, detecta cuándo un laboratorio te ofrece lo mismo más barato que otro, y te dice qué comprar, cuánto pedir y dónde tienes margen para negociar mejor precio.</p>
     </div>
     <div style="display:flex; flex-direction:column; align-items:flex-end; gap:14px;">
@@ -467,7 +467,7 @@
     </div>
   </div>
 
-  <div class="footnote">PLO Compras Inteligente · Prototipo funcional con datos simulados · Fase 1</div>
+  <div class="footnote">PLO Compras Informadas · Prototipo funcional con datos simulados · Fase 1</div>
 
 </div>
 
@@ -784,7 +784,7 @@ renderRows();
 renderNegotiation();
 
 const tourSteps = [
-  { target:"header", icon:"👋", title:"Bienvenido, Don Patricio", desc:"Esta es su plataforma de Compras Inteligente. Le voy a mostrar, uno por uno, dónde está cada función — toma menos de un minuto." },
+  { target:"header", icon:"👋", title:"Bienvenido, Don Patricio", desc:"Esta es su plataforma de Compras Informadas — pensada para darle toda la información al alcance de la mano, sin quitarle el criterio con el que ya compra bien. Le voy a mostrar, uno por uno, dónde está cada función — toma menos de un minuto." },
   { target:".ingesta-grid", icon:"📥", title:"Ingesta automática de listas", desc:"Cada semana el sistema lee los PDF de precios que le mandan sus laboratorios y extrae los productos automáticamente. Si algún laboratorio se atrasa o le manda un DOCX, puede subirlo usted mismo con el botón '+'." },
   { target:".kpi-grid", icon:"📊", title:"Resumen de la semana", desc:"De un vistazo ve cuántos productos se analizaron, cuántas alertas de stock bajo hay, y cuánto ahorro potencial se detectó." },
   { target:".negotiation-grid", icon:"🤝", title:"Oportunidades de Negociación", desc:"Cuando dos laboratorios venden lo mismo, se lo mostramos lado a lado con la diferencia exacta — su argumento listo para negociar mejor precio." },
